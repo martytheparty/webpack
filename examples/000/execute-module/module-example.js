@@ -4,7 +4,13 @@ var consoleMessage = function(){
 var alertMessage = function(){
     alert("Message In The Alert");  
 };
+var writeMessage = function(){
+    document.write("<div>Message In The Write</div>");
+};
 
+var messenger = {};
+messenger.consoleMessage = consoleMessage;
+messenger.alertMessage = alertMessage;
+messenger.writeMessage = writeMessage;
 
-exports consoleMessage = consoleMessage;
-exports alertMessage = alertMessage;
+module.exports  = messenger;
