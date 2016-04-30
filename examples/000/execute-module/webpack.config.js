@@ -1,1 +1,7 @@
-module.exports = {};
+module.exports = {
+    entry: "./app.js",
+    output: {
+        path: __dirname,
+        filename: "./bundle.js"
+    }
+};
