@@ -9,3 +9,5 @@ index.html - this file is for your browser.
 module-example - the module.
 
 webpack.config.js - this is the file webpack uses to do its thing.
+
+You can see these files in action at http://www.webpack.peachyga.com/examples/000/execute-module/.
