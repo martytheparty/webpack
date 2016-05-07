@@ -1,0 +1,1 @@
+var example = require("./pojs.js");
