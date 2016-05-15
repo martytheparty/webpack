@@ -51,7 +51,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>HTML is FUN!!!</div>\n";
+	module.exports = "<div>HTML tastes good and is GOOD For YOU!!!</div>\n";
 
 /***/ }
 /******/ ]);
