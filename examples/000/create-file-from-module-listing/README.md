@@ -14,6 +14,6 @@ style.css - the CSS.
 
 webpack.config.js - this is the file webpack uses to do its thing.
 
-You can see these files in action at <a href='http://www.webpack.peachyga.com/examples/000/create-module-listing/'>http://www.webpack.peachyga.com/examples/000/create-module-from-listing/</a>.
+You can see these files in action at <a href='http://www.webpack.peachyga.com/examples/000/create-file-module-listing/'>http://www.webpack.peachyga.com/examples/000/create-file-module-from-listing/</a>.
 
 If you're trying to use this don't forget to npm install html-webpack-plugin.
