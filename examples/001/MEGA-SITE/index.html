@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mega Site</title>
+    <!-- Font-Awesome -->
+    <link href="bower_components/Font-Awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mega-syles.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container mega-header-container">
+        <div class="row mega-header-row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="mega-title">
+              MEGA SITE HEADER CHA CHA CHA
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div id="mega-adder" class="mega-adder">
+              <div class="mega-adder-loading">
+                <i class='fa fa-spinner fa-spin'></i>
+                Loading Adder
+              </div>
+              <input
+                id='mega-adder-entry'
+                class="mega-adder-entry"
+                type="text"
+                placeholder="Enter Base Cost">
+              <span id="mega-adder-result" class="mega-adder-result"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          HELLO WORLD!!
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <div class="mega-footer">MEGA SITE FOOTER</div>
+      </div>
+    </nav>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/mega-adder.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "mega-site",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "Font-Awesome": "4.6.3"
+
+  }
+}
