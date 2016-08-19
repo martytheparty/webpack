@@ -3,6 +3,23 @@ do this I am going to create a small, organic application.  This small applicati
 will be executed in a web page called mega-site.
 
 ********************************************************************************
+V.0.0.1
+********************************************************************************
+
+V0.0.1 In the V0.0.1 version/tag mega-site is a webpack bundling website architecture.
+
+Basically the adder source code is in its own directory.  The process is to run
+webpack to generate a bundle.  Then you move the bundle into the web site's source.
+
+If you examine the 001/MEGA-SITE/js/ directory for the v.0.0.1 version you will
+see a file called adder.##############.bundle.js.  The ########### part is the
+hash.  The hash is calculated with the contents of the file.  The hash only changes when the contents of the file change.  That means the brower's cache for this file
+will only be broken when the contents of the file change.
+
+Hash caching is an example of a benefit that comes from post development compiling.  
+
+
+********************************************************************************
 V.0.0.0
 ********************************************************************************
 
@@ -66,5 +83,5 @@ various levels throughout the internet.  Once mega-adder.js has been cached maki
 changes to it will always result in lots of customer support calls the end up
 asking the users to clear their cache.  It's a huge pain.  
 
-V0.0.0.1 won't solve all of these issues, but it will solve the caching issues and
-move the project in a direction where the other issues can be solved.  
+V.0.0.1 won't solve all of these issues, but it will solve the caching issues and
+move the project in a direction where the other issues can be solved.
