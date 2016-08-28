@@ -5,7 +5,7 @@ function loadAdder() {
 
   function adderHandler (event) {
     var finalValue =  source.value*1 + 100;
-    target.innerHTML = " Total: $" + finalValue;
+    target.innerHTML = " Total: $" + finalValue + ".00";
   }
 
   source.onkeyup=adderHandler;
