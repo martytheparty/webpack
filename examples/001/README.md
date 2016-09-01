@@ -3,6 +3,14 @@ do this I am going to create a small, organic application.  This small applicati
 will be executed in a web page called mega-site.
 
 ********************************************************************************
+V.0.0.2
+********************************************************************************
+
+V0.0.2 In the V0.0.2 version/tag mega-site is an example of how a very small
+change in the source javascript changes the hash name.  Changing the has name
+busts the cache.
+
+********************************************************************************
 V.0.0.1
 ********************************************************************************
 
