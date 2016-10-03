@@ -44,28 +44,20 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(1);
+	__webpack_require__(2);
 
 
 /***/ },
-/* 1 */
+/* 1 */,
+/* 2 */
 /***/ function(module, exports) {
 
-	function loadAdder() {
-
-	  var source = document.getElementById('mega-adder-entry');
-	  var target = document.getElementById('mega-adder-result');
-
-	  function adderHandler (event) {
-	    var finalValue =  source.value*1 + 100;
-	    target.innerHTML = " Total: $" + finalValue;
-	  }
-
-	  source.onkeyup=adderHandler;
-	  $("#mega-adder").addClass("loaded");
-	}
-
-	setTimeout(loadAdder, 2000);
+	(
+	    function () {
+	      var target = document.getElementById('big-rally');
+	      target.innerHTML = " Come to the big rally in on October 25th!";  
+	    }
+	)();
 
 
 /***/ }
