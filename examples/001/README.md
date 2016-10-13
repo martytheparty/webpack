@@ -3,6 +3,15 @@ do this I am going to create a small, organic application.  This small applicati
 will be executed in a web page called mega-site.
 
 ********************************************************************************
+V.0.0.3
+********************************************************************************
+
+V0.0.3 In the V0.0.3 version/tag mega-site has two very small bundle apps.  The
+apps are totally independent of each other.  Two different teams could work
+totally independently of each other... mext I will combine them into a single
+bundle.
+
+********************************************************************************
 V.0.0.2
 ********************************************************************************
 
