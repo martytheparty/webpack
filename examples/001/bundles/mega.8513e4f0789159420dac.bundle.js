@@ -44,11 +44,32 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	__webpack_require__(1);
 	__webpack_require__(2);
 
 
 /***/ },
-/* 1 */,
+/* 1 */
+/***/ function(module, exports) {
+
+	function loadAdder() {
+
+	  var source = document.getElementById('mega-adder-entry');
+	  var target = document.getElementById('mega-adder-result');
+
+	  function adderHandler (event) {
+	    var finalValue =  source.value*1 + 100;
+	    target.innerHTML = " Total: $" + finalValue + ".00";
+	  }
+
+	  source.onkeyup=adderHandler;
+	  $("#mega-adder").addClass("loaded");
+	}
+
+	setTimeout(loadAdder, 2000);
+
+
+/***/ },
 /* 2 */
 /***/ function(module, exports) {
 

@@ -45,6 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
+	__webpack_require__(2);
 
 
 /***/ },
@@ -66,6 +67,18 @@
 	}
 
 	setTimeout(loadAdder, 2000);
+
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	(
+	    function () {
+	      var target = document.getElementById('big-rally');
+	      target.innerHTML = " Come to the big rally in on October 25th!";  
+	    }
+	)();
 
 
 /***/ }
