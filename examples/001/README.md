@@ -3,6 +3,24 @@ do this I am going to create a small, organic application.  This small applicati
 will be executed in a web page called mega-site.
 
 ********************************************************************************
+V.0.0.4
+********************************************************************************
+
+V0.0.4 In the V0.0.4 version/tag mega-site has two very small bundle apps.  The
+apps are totally independent of each other.  Two different teams could work
+totally independently of each other. At build time the two bundles are combined
+into a single bundle.  During development the two bundles are independent, which
+is generally best for developers.  During runtime the two bundles are combined
+which is generally best for browsers.
+
+At this point all of the issues described in v.0.0.1 are addressed.  The bundles
+aren't coupled together.  The code is easy to version.  Cache busting is not an
+issue because the bundle names only change when the content of the bundles change.
+
+I believe that concludes the 001 section of this project.  The 002 section will
+address bundling HTML and CSS along with the JS.  
+
+********************************************************************************
 V.0.0.3
 ********************************************************************************
 
