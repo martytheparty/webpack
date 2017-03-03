@@ -7,5 +7,11 @@ module.exports = {
     output: {
         path: "../bundles/",
         filename: "[name].[hash].bundle.js"
+    },
+    module: {
+        loaders: [
+            { test: /\.html$/, loader: "raw-loader" },
+            { test: /\.css$/, loader: "style!css" }
+        ]
     }
 };

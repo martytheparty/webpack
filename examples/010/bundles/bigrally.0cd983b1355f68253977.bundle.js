@@ -44,27 +44,36 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(1);
+	window.rallyHTML = __webpack_require__(2);
+	__webpack_require__(3);
+	__webpack_require__(7);
 
 
 /***/ },
-/* 1 */
+/* 1 */,
+/* 2 */
+/***/ function(module, exports) {
+
+	module.exports = "<span id='bigrally'> Come to the big rally in on October 25th!</span>\n"
+
+/***/ },
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(2);
+	var content = __webpack_require__(4);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(4)(content, {});
+	var update = __webpack_require__(6)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../../../node_modules/css-loader/index.js!./style.css", function() {
-				var newContent = require("!!./../../../../../node_modules/css-loader/index.js!./style.css");
+			module.hot.accept("!!./../../../../../../../node_modules/css-loader/index.js!./big-rally.css", function() {
+				var newContent = require("!!./../../../../../../../node_modules/css-loader/index.js!./big-rally.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -74,21 +83,21 @@
 	}
 
 /***/ },
-/* 2 */
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(3)();
+	exports = module.exports = __webpack_require__(5)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "body {\n  background-color: #444444;\n  color:#FFFF00;\n}\na {\n  color:#FF6600;\n}\n", ""]);
+	exports.push([module.id, "#bigrally {\n  font-weight: bold;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 3 */
+/* 5 */
 /***/ function(module, exports) {
 
 	/*
@@ -144,7 +153,7 @@
 
 
 /***/ },
-/* 4 */
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -360,7 +369,6 @@
 	function applyToTag(styleElement, obj) {
 		var css = obj.css;
 		var media = obj.media;
-		var sourceMap = obj.sourceMap;
 
 		if(media) {
 			styleElement.setAttribute("media", media)
@@ -378,7 +386,6 @@
 
 	function updateLink(linkElement, obj) {
 		var css = obj.css;
-		var media = obj.media;
 		var sourceMap = obj.sourceMap;
 
 		if(sourceMap) {
@@ -395,6 +402,18 @@
 		if(oldSrc)
 			URL.revokeObjectURL(oldSrc);
 	}
+
+
+/***/ },
+/* 7 */
+/***/ function(module, exports) {
+
+	(
+	    function () {
+	      var target = document.getElementById('big-rally');
+	      target.innerHTML = window.rallyHTML;  
+	    }
+	)();
 
 
 /***/ }

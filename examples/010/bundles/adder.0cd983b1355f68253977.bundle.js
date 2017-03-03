@@ -45,7 +45,6 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
-	__webpack_require__(2);
 
 
 /***/ },
@@ -59,7 +58,9 @@
 
 	  function adderHandler (event) {
 	    var finalValue =  source.value*1 + 100;
-	    target.innerHTML = " Total: $" + finalValue + ".00";
+	    var adderHtml = window.adderHTML;
+	    adderHtml = adderHtml.replace("[finalValue]", finalValue);
+	    target.innerHTML = " " + adderHtml;
 	  }
 
 	  source.onkeyup=adderHandler;
@@ -67,18 +68,6 @@
 	}
 
 	setTimeout(loadAdder, 2000);
-
-
-/***/ },
-/* 2 */
-/***/ function(module, exports) {
-
-	(
-	    function () {
-	      var target = document.getElementById('big-rally');
-	      target.innerHTML = " Come to the big rally in on October 25th!";  
-	    }
-	)();
 
 
 /***/ }
