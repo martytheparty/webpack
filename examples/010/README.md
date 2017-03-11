@@ -3,13 +3,18 @@ do this I am going to create a small, organic application.  This small applicati
 will be executed in a web page called mega-site.
 
 ********************************************************************************
+V.0.1.1
+********************************************************************************
+
+V.0.1.1 In the V.0.1.1 version/tag mega-site has to bundle apps.  The bundles
+contain html, javascript, and css.  They are moving in the direction of a
+web component.
+
+********************************************************************************
 V.0.1.0
 ********************************************************************************
 
-V.0.1.0 In the V.0.1.0 version/tag mega-site has to bundle apps.  The bundles
-contain html, javascript, and css.  They are moving in the direction of a 
-web component.
-
+V.0.1.0 In the V.0.1.0 version/tag mega-site has to bundle apps.
 
 ********************************************************************************
 V.0.0.4
