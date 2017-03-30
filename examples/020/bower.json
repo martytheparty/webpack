@@ -1,0 +1,21 @@
+{
+  "name": "mega_site",
+  "description": "messing around with webpack",
+  "main": "index.js",
+  "authors": [
+    "martytheparty"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/martytheparty/webpack",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "injectorjs": "fa-injector#^0.11.2"
+  }
+}
